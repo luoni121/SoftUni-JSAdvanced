@@ -1,16 +1,16 @@
-// let result = (function () {
-//     let sum = 0;
+let result = (function () {
+    let sum = 0;
 
-//     function add(num) {
-//         sum += num;
-//         return add;
-//     }
+    function add(num) {
+        sum += num;
+        return add;
+    }
 
-//     add.toString = function () {
-//         return sum
-//     }
+    add.toString = function () {
+        return sum
+    }
 
-//     return add;
-// })();
+    return add;
+})();
 
 // console.log(result(10)(20)(5) + '');
