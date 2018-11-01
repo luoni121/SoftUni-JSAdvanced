@@ -5,5 +5,5 @@ function solve1(arr, sorting) {
         return arr.sort((a, b) => b - a);    
     }
 }
-solve1([14, 7, 17, 6, 8], 'asc');
-solve1([14, 7, 17, 6, 8], 'desc');
+// solve1([14, 7, 17, 6, 8], 'asc');
+// solve1([14, 7, 17, 6, 8], 'desc');
